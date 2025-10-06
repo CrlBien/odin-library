@@ -41,11 +41,10 @@ body {
 }
 
 .main-container {
-  border: 1px solid black;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1.5rem;
-  width: 80%;
+  gap: 1rem;
+  width: 90%;
   margin-top: 2rem;
   padding: 1rem;
 }
@@ -62,6 +61,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+
+.card button:hover {
+  cursor: pointer;
 }
 
 .info-container {
@@ -82,6 +85,7 @@ body {
 }
 
 input[type="checkbox"] {
+  cursor: pointer;
   accent-color: var(--purple);
 }
 
@@ -101,6 +105,12 @@ input[type="checkbox"] {
 
 .add {
   padding: 0;
+  order: -1;
+}
+
+.add-btn:hover {
+  background: var(--purple);
+  color: var(--light-purple);
 }
 
 .add-btn {

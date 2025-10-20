@@ -23,6 +23,6 @@ Try the website here: https://crlbien.github.io/odin-library/
 - What is Prototypal Inheritance
 - Handle input through forms and buttons
 
-**Note:** This project has a minor UX issue related to how it displays newly added book. The new book should appear right after the “Add” button so that it stacks properly with the existing books in the library.
+**Note:** This project has a minor UX issue related to how it displays newly added book. The new book should appear right after the “Add” button so that it stacks properly with the existing books in the library instead of displaying it at the end of the list.
 The issue occurs because I used an array instead of another data structure, such as a linked list, which would allow books to stack properly while also enabling the removal of books from the middle of the collection.
 However, I realized that this approach would make the project a bit more complex logic-wise, and the project only recommended using an array.
